@@ -18,7 +18,7 @@ public class Principal {
     private  ConsumoApi consumoApi = new ConsumoApi();
     private ConverteDados conversor = new ConverteDados();
     private final String ENDERECO = "https://www.omdbapi.com/?t=";
-    private final String API_KEY = "&apikey=677ac361";
+    private final String API_KEY = "PUT_YOUR_API_KEY_HERE";
     private final DecimalFormat df = new DecimalFormat("#.00");
 
     public void exibeMenu() {
